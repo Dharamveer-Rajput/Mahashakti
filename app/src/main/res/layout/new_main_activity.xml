@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="@dimen/_20sdp">
+            android:padding="@dimen/_10sdp">
 
 
             <Button
@@ -97,6 +97,35 @@
 
 
     </android.support.v7.widget.CardView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/loginFacebookButton"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/facebookbtn"
+            />
+        <Button
+            android:id="@+id/loginGoogleButton"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/googlebtn"
+            />
+
+    </LinearLayout>
 
 
 
